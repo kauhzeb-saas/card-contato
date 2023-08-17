@@ -12,13 +12,14 @@
 <body>
   <form>
     <div class="nome">
-      <label for="nome">Nome</label>
-      <input type="text" name="nome" id="nome" required>
+      <label for="nome">Nome : </label>
+      <input type="text" name="nome" id="nome" required
+      placeholder="carlos de andrade">
     </div>
 
     <div class="email">
-      <label for="email">Email</label>
-      <input type="text" name="Email" id="email" required>
+      <label for="email">Email : </label>
+      <input type="email" name="email" id="email" required placeholder="example@email.com">
       <div class="card">
         <div class="avatar">
           <img src="https://i.ytimg.com/vi/5qap5aO4i9A/maxresdefault.jpg" alt="avatar">
@@ -28,13 +29,13 @@
 
         <div class="textarea">
           <br>
-          <label for="experiencia"><strong>Assunto: </strong></label>
-          <textarea rows="6" style="width: 220px" id="assunto" name="assunto"></textarea>
+          <label for="text"><strong>Assunto: </strong></label>
         </div>
-        <div class="botao">
-          <a href="/">enviar</a>
-        </div>
-      </div>
+      <div id="chatbox"></div>
+<input type="text" id="chatbox" placeholder="inserir texto aqui"/>
+<button id="sendButton">Enviar</button>
+
+
   </form>
 </body>
 
