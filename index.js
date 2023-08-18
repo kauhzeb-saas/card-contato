@@ -1,4 +1,4 @@
 function Submit(){
-  const inputNome = document.getElementById("email").value
-  alert(`enviado parsa ${inputNome}`)
+  const inputNome = document.getElementById("nome").value
+  alert(`obrigado:P ${inputNome}`)
 }
