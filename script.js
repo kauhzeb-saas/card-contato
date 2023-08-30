@@ -1,4 +1,4 @@
 function Submit(){
-  const inputNome = document.getElementById("nome").value
-  alert(`carai q nome feikkkkkk ${inputNome}`)
+  const inputName = document.getElementById("name").value
+  alert(`carai q nome feikkkkkk ${inputName}`)
 }
