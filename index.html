@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>card de contato</title>
 </head>
 
@@ -14,8 +14,10 @@
   <form>
     <div class="nome">
       <label for="nome">Nome : </label>
-      <input type="text" name="nome" id="nome" required
+      <input type="text" name="name" id="name" required
       placeholder=" nome">
+      <input type="hidden" name="accessKey" value=" 72995092-a1a6-4ad0-b736-8c5037c2734b">
+      <input type="hidden" name="redirectTo" value="https://github.com/kauhzeb-saas">
     </div>
 
     <div class="email">
@@ -34,7 +36,7 @@
         </div>
         <div id="chatbox"></div>
         <input type="text" id="chatbox" placeholder="inserir texto aqui"/>
-        <button id="sendButton" onclick="Submit()">Enviar</button>
+        <input type="submit" value="enviar"/>
       </div>
 
   </form>
